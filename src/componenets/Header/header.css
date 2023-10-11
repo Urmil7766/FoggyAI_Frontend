@@ -1,0 +1,61 @@
+.header {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.header_left {
+  background: linear-gradient(262deg, rgba(55.01, 168.04, 231.63, 0.40) 0%, rgba(91.37, 163.39, 255, 0.40) 30%, rgba(210.25, 167.83, 220.23, 0.40) 56%, rgba(227.66, 172.81, 212.30, 0.40) 71%, rgba(133.87, 145.99, 255, 0.40) 100%);
+  padding: 13px;
+  flex: 0.3;
+}
+
+.header_right {
+  flex: 0.7;
+  background-color: white;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.tools_data {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.tool {
+  margin-left: 20px;
+  padding: 6px 12px;
+  /* color: #fff; */
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.tool:hover {
+  color: aqua;
+}
+
+.icon{
+  /* color: #fff; */
+  font-size: 25px;
+}

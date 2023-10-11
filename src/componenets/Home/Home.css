@@ -1,0 +1,136 @@
+.home_page_data {
+  height: auto;
+}
+
+.home_page {
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.topic {
+  position: relative;
+  border-radius: 5px;
+  top: 2px;
+  background-color: rgb(204, 221, 215);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.topic_selected {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.topic_side {
+  margin-right: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.BsTranslate {
+  font-size: 22px;
+}
+
+.data_center {
+  position: relative;
+  top: 150px;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box_data {
+  padding: 25px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 1px 5px 5px #888888;
+}
+
+.props_data1 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.props_data2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.data_input {
+  /* background-color: rgb(10, 200, 200); */
+  font-size: 20px;
+}
+
+.data_enter {
+  position: relative;
+  top: 360px;
+  margin-left: 70px;
+}
+
+.data_attach {
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.attach_im {
+  margin-right: 20px;
+  padding: 7px 20px;
+  border: 1px solid white;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.ai_outline {
+  padding: 7px 20px;
+  border: 1px solid white;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px rgb(108, 98, 98);
+}
+
+.drag {
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input_search_voice {
+  margin-top: 10px;
+}
+
+.search_ {
+  border: 2px solid white;
+  border-radius: 8px;
+  box-shadow: 1px 2px 5px rgb(83, 71, 71);
+  font-size: 20px;
+  width: 83%;
+  padding: 15px 10px;
+}
+
+.enter_ {
+  
+}
+
+.iosend{
+  margin-left:-40px ;
+}
+
+.mic{
+  border: 2px solid white;
+  border-radius: 8px;
+  box-shadow: 1px 2px 5px black;
+  padding: 5px 14px;
+  padding-bottom: 12px;
+  font-size: 25px;
+  margin-left: 35px;
+}
+
+.bs{
+  text-align: center;
+}
