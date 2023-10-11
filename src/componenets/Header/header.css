@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 .header {
   background-color: white;
   position: sticky;
@@ -43,7 +44,6 @@
 .tool {
   margin-left: 20px;
   padding: 6px 12px;
-  /* color: #fff; */
   font-size: 28px;
   font-weight: bold;
   border-radius: 4px;
@@ -55,7 +55,33 @@
   color: aqua;
 }
 
-.icon{
-  /* color: #fff; */
+.icon {
   font-size: 25px;
+}
+
+/* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+  }
+
+  .header_left {
+    flex: 1; /* Take full width on small screens */
+  }
+
+  .header_right {
+    flex: 1; /* Take full width on small screens */
+    padding: 10px;
+  }
+
+  .tools_data {
+    font-size: 20px;
+  }
+
+  .tool {
+    margin-left: 10px;
+    padding: 4px 8px;
+    font-size: 20px;
+  }
 }

@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 .home_page_data {
   height: auto;
 }
@@ -38,7 +39,6 @@
   position: relative;
   top: 150px;
   padding: 10px;
-
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -62,7 +62,6 @@
 }
 
 .data_input {
-  /* background-color: rgb(10, 200, 200); */
   font-size: 20px;
 }
 
@@ -117,11 +116,11 @@
   
 }
 
-.iosend{
-  margin-left:-40px ;
+.iosend {
+  margin-left: -40px;
 }
 
-.mic{
+.mic {
   border: 2px solid white;
   border-radius: 8px;
   box-shadow: 1px 2px 5px black;
@@ -131,6 +130,41 @@
   margin-left: 35px;
 }
 
-.bs{
+.bs {
   text-align: center;
+}
+
+/* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .data_center {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    top: 0; /* Reset the top position */
+  }
+
+  .data_center .box_data {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .data_input, .search_ {
+    width: 100%;
+  }
+
+  .topic {
+    height: auto; /* Adjust height as needed */
+  }
+
+  .topic_selected {
+    font-size: 16px;
+  }
+
+  .topic_side {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .BsTranslate {
+    font-size: 18px;
+  }
 }
